@@ -5,6 +5,7 @@ previous_guess = None
 guess_count = 0
 next_guesses = set()
 
+nextgenius = 43
 while True:
    guess = input("Guess the secret number (between 1 and 10): ")
 
