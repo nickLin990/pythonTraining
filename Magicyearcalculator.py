@@ -1,16 +1,22 @@
-def calculate_magic_year(work_start_year):
-    magic_number = 12
-magic_number = 10
-print("Magic Year Calculator")
-name = input("what is your name")
-Surname = input("what is your surname:")
-year_of_birth = int(input("What is your year of birth: "))
-annual_salary = input("What is your annaul salary:")
-work_start_year = input("What is your work start year:")
-magic_year = work_start_year + magic_number
-monthly_salary = annual_salary / 12
-magic_year = calculate_magic_year(work_start_year)
-print("Your magic age details are:")
-print("Name:", name, Surname)
-print("Monthly Salary:", monthly_salary)
-print("Magic Year:", magic_year)
+#ask user for name
+#ask user for last name
+#ask user for annual salary 
+#ask user for work start year
+#calculate full name
+#calculate monthly salary 
+#calculate magic year
+#print our results
+print("welcome to the magic year calculator")
+first_name = input("what is your first name? \n")
+last_name = input("what is your last name? \n")
+annual_salary = input("what is your annual salary? \n")
+work_start_year = input("what is your work start year? \n")
+
+full_name = first_name + " " + last_name 
+monthly_salary = int(annual_salary) / 12
+magic_year = int(work_start_year) + 65
+
+print("your magic age details")
+print("Name: " + full_name)
+print("Monthly salary: " + str(monthly_salary))
+print("magic year: " + str(magic_year))
