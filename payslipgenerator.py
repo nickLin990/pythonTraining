@@ -17,3 +17,4 @@ full_name = first_name + " " +  last_name
 pay_period = payment_start_date, "-", payment_end_date
 gross_income = int(annual_salary) / 12 
 income_tax = 
+net_income = int(gross_income - income_tax)  
