@@ -16,5 +16,6 @@ payment_end_date = input("what is your payment end date? \n")
 full_name = first_name + " " +  last_name
 pay_period = payment_start_date, "-", payment_end_date
 gross_income = int(annual_salary) / 12 
-income_tax = 
+income_tax =  
 net_income = int(gross_income - income_tax)  
+Super = int(gross_income * super_rate)
